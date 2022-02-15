@@ -1,0 +1,1 @@
+I found this pretty hard to follow at frist and was pretty intimidated but after using the examples and all the resources it was pretty fun to use and work on! I still had some trouble working on it but for the most part i thought it was pretty fun!
