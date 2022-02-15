@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is HW-4">
+    <meta name="author" content="Rogelio Mares">
+    <title>HW-4</title>
+      <link rel="stylesheet" type="text/css" href="./css/styles.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+   <style>body{background-color: #73a4db;
+                text-align: center;}
+   </style>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+
+    <img src="./images/t-road.jpeg" height="408" width="612" id="mainImage">
+    <br>
+    <br>
+    <h1>Road Trip Gone Wrong</h1>
+
+    <div id="question">
+    <p>You've come across two different paths. Will you go right or left?</p>
+    </div>
+
+    <input type="text" id="rightorleft" value="Right or Left?">
+    <button id="rightorleftbtn" onclick="rightOrLeft();">Continue</button>
+
+    <input type="text" id="PickorLeave" size=25; value="Pick Him Up or Leave Him" style="display:none">
+    <button id="PickorLeavebtn" onclick="PickorLeave();" style="display:none">Continue</button>
+
+    <input type="text" id="HydrateorDehydrate" size=35; value="Accept it or Dehydrate?" style="display:none">
+    <button id="HydrateorDehydratebtn" onclick="HydrateorDehydrate();" style="display:none">Continue</button>
+
+    <input type="text" id="continueoralternate" size=35; value="Stay or Look around?" style="display:none">
+    <button id="continueoralternatebtn" onclick="continueOrAlternate();" style="display:none">Continue</button>
+
+    <input type="text" id="GasorAss" size=35; value="Get Gas or Keep driving" style="display:none">
+    <button id="GasorAssbtn" onclick="GasorAss();" style="display:none">Continue</button>
+
+    <input type="text" id="runorfight" size=35; value="Run or Fight?" style="display:none">
+    <button id="runorfightbtn" onclick="runOrFight();" style="display:none">Continue</button>
+
+    <input type="text" id="crossorturn" size=15; value="Cross or Turn around?" style="display:none">
+    <button id="crossorturnbtn" onclick="crossOrTurn();" style="display:none">Continue</button>
+
+    <button id="restart" onClick="window.location.reload();" style="display:none">Restart</button>
+  </body>
+
+</html>
