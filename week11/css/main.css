@@ -1,0 +1,6 @@
+#myCanvas {
+    border: black;
+    border-style: dashed;
+    border-width: 15px;
+    background-color: rgb(114, 135, 228);
+  }
