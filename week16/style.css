@@ -1,0 +1,24 @@
+
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to right top, hsla(0, 0%, 0%, 0.5), rgba(185, 185, 185, 0.842));
+  background-image: -moz-linear-gradient(to right top, hsla(0, 0%, 0%, 0.5), rgb(182, 182, 182));
+}
+p{
+  text-align:center;
+  width:100%;
+  color:rgb(235, 235, 235);
+  font-size:6em;
+  text-shadow:3px 3px rgb(94, 0, 0)
+          -3px -3x rgb(59, 0, 0);
+  font-family: 'Poiret One';
+  letter-spacing: 6px;
+  text-align: center;
+  position: relative;
+  margin-top: 40vh;
+}
